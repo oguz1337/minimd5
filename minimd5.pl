@@ -158,7 +158,7 @@ for ($a = 0; $a <= $length11; $a++)
      chomp($md5[$a]);
  if ($m eq $md5[$a]){
 
-  print "\n\n\nReis bulamadım kusura bakma :(\t[ $test ]\n\n";
+  print "\n\n\nDostum MD5 kodunu kırdım ==> \t[ $test ]\n\n";
   print A "$m = $test\n";
   splice(@md5, $a, 1);
   if (!$md5[0]) { exit(); }
