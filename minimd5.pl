@@ -1,49 +1,5 @@
+
 #!usr/bin/perl
-
-
-print q{
-         __  __ _       _ __  __ ____  ____
-        |  \/  (_)_ __ (_)  \/  |  _ \| ___|
-        | |\/| | | '_ \| | |\/| | | | |___ \
-        | |  | | | | | | | |  | | |_| |___) |
-        |_|  |_|_|_| |_|_|_|  |_|____/|____/
-         Coder: SyberCodeV1 & GrayTurkish
-};
-
-print "1) MD5 Oluştur\n";
-print "2) MD5 Kır\n";
-my $cmd;
-print "Lütfen Yapılacak Olan İşlemi Seçiniz: ";
-$cmd = <STDIN>;
-
-if ($cmd > 2) {
-     print "Hatalı Komut!\n";
-     }
-
-if ($cmd == 1) {
-     use Digest::MD5 qw( md5_hex );
-     my $md5x;
-     print "\nMD5 Oluşturacak Kelimeyi Girin ÖRN: SyberCodeV1 : ";
-     $md5x = <STDIN>;
-     chomp($md5x);
-     print "Buyrun MD5 Kodunuz: ", md5_hex("$md5x"), "\n\n";
-     }
-
-if ($cmd == 2) {
-
-@char = ('a','b','c','d','e','f','g','h','i','j',
-'k','l','m','n','o','p','q','r','s','t',
-'u','v','w','x','y','z','A','B','C','D','E',
-'F','G','H','I','J','K','L','M','N','O',
-'P','Q','R','S','T','U','V','W','X','Y','Z',
-' ','1','2','3','4','5','6','7','8','9',
-'0','`','-','=','~','!','@','#','$','%',
-'^','&','*','(',')','_','+','{','}','|',
-':','"','<','>',);
-$CharToUse = 62;
-getmd5();
-#!usr/bin/perl
-
 
 print q{
          __  __ _       _ __  __ ____  ____
