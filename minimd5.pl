@@ -7,7 +7,7 @@ print q{
         | |\/| | | '_ \| | |\/| | | | |___ \
         | |  | | | | | | | |  | | |_| |___) |
         |_|  |_|_|_| |_|_|_|  |_|____/|____/
-         Coder: SyberCodeV1 & GrayTurkish
+         Coder: SyberCodeV1 & SpyHackerZ.org
 };
 
 print "1) MD5 Oluştur\n";
